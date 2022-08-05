@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+.line {
+  display: flex;
+  justify-content: center;
+}
+
+.cell {
+  border: 1px solid #802600;
+  cursor: pointer;
+  background-color: rgb(11, 169, 40);
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.disabled {
+  opacity: 0.4;
+}
